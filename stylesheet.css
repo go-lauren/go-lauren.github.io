@@ -84,6 +84,11 @@ button {
   color: white;
 }
 
+.tab:hover{
+  color:black;
+  background-color: rgb(255,255,255);
+}
+
 .menu-bar {
   padding: 10px;
   align-items: stretch;
