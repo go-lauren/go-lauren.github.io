@@ -1,0 +1,96 @@
+@@font-face {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.profile-pic {
+  position: relative;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  min-height: 100px;
+  min-width: 100px;
+  max-height: 300px;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.profile-pic:hover .profile-overlay{
+  opacity: 0.9;
+}
+
+.profile-overlay{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  transition: 0.5s;
+
+  background-color: #000000;
+}
+
+.profile-text {
+  color: white;
+  font-size: 2.5em;
+  font-family: "Roboto Condensed";
+}
+
+.square-border {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width:80%;
+  height:80%;
+  border:5px solid;
+  border-color:white;
+  color:white;
+}
+
+body {
+  padding:0;
+  margin:0;
+  background-color: rgba(0,0,0,1);
+  color:white;
+  font-family: "Arial";
+}
+
+button {
+  font-family: "Roboto Condensed";
+}
+
+.black-background {
+  display: flex;
+  width:100%;
+  height:500px;
+  margin:0;
+  padding:0;
+  background-color: black;
+
+}
+
+.tab {
+  letter-spacing: 0.1em;
+  border: 1px solid white;
+  background-color: black;
+  font-size:15px;
+  color: white;
+}
+
+.menu-bar {
+  padding: 10px;
+  align-items: stretch;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
