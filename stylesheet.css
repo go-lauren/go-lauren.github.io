@@ -2,6 +2,14 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+@font-face {
+  font-family: 'LM';
+  src: url(fonts/LemonMilklight.ttf);
+}
+
+@font-face{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
 .profile-pic {
   position: relative;
   margin-top: 5em;
@@ -57,9 +65,10 @@
 body {
   padding:0;
   margin:0;
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(10,10,10, 0.9);
   color:white;
   font-family: "Arial";
+
 }
 
 button {
@@ -72,7 +81,6 @@ button {
   height:500px;
   margin:0;
   padding:0;
-  background-color: black;
 
 }
 
@@ -95,7 +103,42 @@ button {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.card-holder {
+  width: 100%;
+  /*background-color:blue;*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding-right: 5%;
+}
+.card {
+  text-align: center;
+  background-color: rgb(210, 210, 210);
+  display:inline-block;
+  min-width:150px;
+  min-width: 300px;
+  max-width:300px;
+  margin:20px;
+  padding:30px;
+  color:rgb(50,50,50);
+  font-family: monospace;
+}
+.card h3 {
+  font-size:1.5em;
+}
+.card h6 {
+  font-size:0.9em;
+}
+.card img {
+  opacity: 0.8
+}
 img {
   max-width: 100%;
   max-height: 100%;
+}
+p {
+  font-family: monospace;
+  font-size:1.2em;
 }
